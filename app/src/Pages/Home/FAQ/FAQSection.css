@@ -1,0 +1,17 @@
+.accordion {
+  margin: 10px 0;
+}
+.accordion-button {
+  font-weight: 500 !important;
+}
+.accordion-item {
+  margin: 10px 0;
+}
+@media screen and (max-width: 520px) {
+  .accordion-button {
+    font-size: 0.9rem !important;
+  }
+  .accordion-body {
+    font-size: 0.75rem !important;
+  }
+}

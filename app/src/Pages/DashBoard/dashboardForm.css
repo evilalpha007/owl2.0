@@ -1,0 +1,74 @@
+.dashboardFormCard {
+        /* height: 100vh; */
+        /* width: 80%; */
+        background-color: #f1f3f1;
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+        flex-direction: column;
+}
+.req-header {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid gray;
+    width: 100%;
+    text-align: center;
+}
+.form-check-label {
+    font-size: 1rem;
+    color: #75757a;
+}
+.form-label {
+    font-size: 1.1rem;
+    color: #505052;
+}
+.tab-req {
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+.tab-content {
+    width: 80%;
+    margin: 2rem auto;
+}
+.form-req{
+    width: 100%;
+    padding: 1rem;
+}
+.dashboardFormCard .header{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.row1111 {
+    --bs-gutter-x: 0 !important;
+}
+.dashboardFormCard .formCard {
+    background-color: rgb(161, 195, 223);
+    min-height: 380px;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 50px 30px;
+    margin: auto;
+    width: 60%;
+}
+.dashboardFormCard .formCard label { 
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.dashboardFormCard .formCard .submit-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+.form-select {
+    max-width: 800px !important;
+}

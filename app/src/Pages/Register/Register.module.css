@@ -1,0 +1,24 @@
+.register {
+  padding-top: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media screen and (max-width: 1000px) {
+  
+  .register {
+    padding-top: 20%;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  
+  .register {
+    padding-top: 32rem;
+    padding-bottom: 30rem;
+  }
+
+}

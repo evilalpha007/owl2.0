@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.footer {
+  font-family: 'Raleway', sans-serif;
+  color: #d4d1d1 !important;
+  width: 100%;
+}
+
+.footer-sec {
+  padding: 3rem;
+  color: #d4d1d1 !important;
+  background-color: #1d2434;
+}
+
+.footer-get-in-touch {
+  margin: 2rem;
+  max-width: 350px;
+}
+.footer-header {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 0.2rem;
+  color: #d4d1d1;
+}
+.footer-desc {
+  font-size: 1.1rem;
+  color: gray;
+  padding: 0.1rem;
+}
+
+.footer-icon{
+  margin: 5px 0;
+}
+.footer-icon a{
+  text-decoration: none;
+  margin: 0 19px 0 0;
+  cursor: pointer;
+  color : #d4d1d1 !important;
+}
+.footer-icon a :hover{
+  width: 26px;
+  color : blue;
+}
+.footer-form {
+  max-width: 350px;
+  padding: 2rem;
+}
+.footer-label {
+  font-size: 1.15rem;
+  font-weight: 500;
+  padding: 0.15rem;
+  color: #d4d1d1; 
+}
+.footer-input {
+  background-color: #1d2434 !important;
+  font-size: 1.15rem !important;
+  padding: 5px !important;
+  color: #d4d1d1 !important;
+  margin-bottom: 10px;
+}
+.footer-btn {
+  padding: 6px !important;
+}
+
+@media screen and (max-width: 850px) {
+  .footer-sec {
+    padding: 2rem;
+  }
+  
+  .footer-get-in-touch {
+    margin: 0rem;
+  }
+  .footer-form {
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 780px) {
+  .footer-sec {
+    padding: 0.5rem;
+  }
+  
+  .footer-get-in-touch {
+    margin: 0rem;
+  }
+  .footer-form {
+    padding: 0.5rem;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer-sec {
+    justify-content: flex-start !important;
+    padding: 2rem !important;
+  }
+  
+  .footer-get-in-touch {
+    margin: 0rem;
+  }
+  .footer-form {
+    padding: 0.5rem;
+  }
+}
+
+.final-footer {
+  background-color: #212529 !important;
+}
+.footer-sec-2 {
+  padding: 3rem;
+  color: #d4d1d1 !important;
+}
+.each-sec {
+  margin: 1.5rem;
+}
+@media screen and (max-width: 720px) {
+  .footer-sec-2 {
+    justify-content: flex-start !important;
+    padding: 2rem !important;
+  }
+  .each-sec {
+    margin: 1.0rem;
+  }
+}

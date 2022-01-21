@@ -1,0 +1,17 @@
+.div {
+    width: 100%;
+    text-align: center;
+    margin: 25px auto;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 520px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}

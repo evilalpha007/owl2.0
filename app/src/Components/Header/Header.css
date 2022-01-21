@@ -1,0 +1,26 @@
+.navbar {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+.btn {
+  font-weight: 600 !important;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    font-size: 14px !important;
+  }
+  .logo {
+    width: 40px !important;
+  }
+  .navButton{
+    font-size: 10px !important;
+  }
+}

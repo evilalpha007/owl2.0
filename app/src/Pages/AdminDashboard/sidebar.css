@@ -1,0 +1,60 @@
+.sidebar {
+    height: 100vh;
+    background-color: #7386d5;
+    width: 20%;
+    position: sticky;
+    left: 0;
+    top: 0;
+}
+.sidebar .link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.sidebar .link .header{
+    color: white; 
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.sidebar .ulist {
+    margin-top: 50px; 
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+.sidebar .ulist li {
+    cursor: pointer;
+    padding: 10px 10px 10px 50px;
+    width: 100%;
+    font-weight: 500;
+}
+.sidebar .ulist li:hover {
+    background-color: #b3bde7;
+    color: #030924;
+}
+.sidebar .userDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+    justify-content: center;
+    position: fixed;
+    bottom: 10px;
+    cursor: pointer;
+}
+.sidebar .userDetails i {
+    font-size: 3.5rem;
+}
+.sidebar .userDetails p {
+    font-size: 0.95rem;
+    color: rgb(37, 15, 119);
+}

@@ -1,0 +1,58 @@
+.content-render {
+    min-height: 100vh;
+    width: 80%;
+    background-color: rgb(193, 224, 181);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.content-header{
+    font-size: 1.2rem;
+    text-align: center;
+    position: sticky;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: rgb(161, 195, 223);
+    top: 0;
+}
+.content-render .cardss {
+    padding: 50px;
+    min-height: 250px;
+    background-color: rgb(138, 192, 192);
+    width: 70%;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.content-render .cardss .cat-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.87rem;
+    color: rgb(73, 12, 134);
+    font-weight: 600;
+}
+.content-render .cardss .cat-3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.87rem;
+    color: rgb(77, 3, 3);
+    font-weight: 600;
+}
+.content-render .cardss .cat-2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.content-render .cardss .cat-2 h3{
+    font-size: 1.1rem;
+    color: blueviolet;
+}
+.content-render .cardss .cat-2 p{
+    font-size: 0.87rem;
+}

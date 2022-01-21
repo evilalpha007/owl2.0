@@ -1,0 +1,25 @@
+.contentSection {
+  margin-top: 5%;
+}
+
+.component {
+  margin-bottom: 6%;
+}
+
+.heading {
+  font-size: 45px;
+  margin-bottom: 4%;
+}
+
+.whyText {
+  font-size: 30px;
+}
+
+.subNumber {
+  font-size: 25px;
+}
+
+.subHeading,
+.subText {
+  font-size: 40px;
+}
