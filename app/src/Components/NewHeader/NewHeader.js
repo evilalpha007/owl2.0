@@ -7,7 +7,7 @@ const NewHeader = () => {
             <nav className="navbar navbar-expand-lg fixed-top navbar-light" style={{zIndex: "900", backgroundColor: "white" }}>
                 <div className="container">
                     <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                        <Link className="navbar-brand logo-image" to="/"><img style={{ width: "56px", height: "56px" }} src="/web/images/logo.svg" alt="alternative" /></Link>
+                        <Link className="navbar-brand logo-image" to="/"><img style={{ width: "56px", height: "56px" }} src={process.env.PUBLIC_URL + "/web/images/otusfinalpngblue-06.png"} alt="alternative" /></Link>
                         <Link className="navbar-brand logo-text page-scroll" to="/" style={{color: "#1e266d"}}>Otus AI</Link>
                     </div>
 
